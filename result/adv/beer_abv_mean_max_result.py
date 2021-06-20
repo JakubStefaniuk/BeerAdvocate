@@ -1,7 +1,7 @@
-from result.beer_adv_result import BeerAdvResult
+from result.descriptive_result import DescriptiveResult
 
 
-class BeerAdvMeanMaxResult(BeerAdvResult):
+class BeerAbvMeanMaxResult(DescriptiveResult):
 
     brewery_name: str
     max_adv_mean: float

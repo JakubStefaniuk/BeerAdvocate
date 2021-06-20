@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class BeerAdvResult(ABC):
+class DescriptiveResult(ABC):
 
     @abstractmethod
     def describe(self) -> str:

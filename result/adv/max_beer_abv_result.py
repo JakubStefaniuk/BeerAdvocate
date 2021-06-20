@@ -1,7 +1,7 @@
-from result.beer_adv_result import BeerAdvResult
+from result.descriptive_result import DescriptiveResult
 
 
-class MaxBeerAdvResult(BeerAdvResult):
+class MaxBeerAbvResult(DescriptiveResult):
 
     brewery_name: str
     max_beer_adv: float

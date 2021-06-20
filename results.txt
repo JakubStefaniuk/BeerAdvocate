@@ -1,0 +1,5 @@
+Which brewery produces the strongest beers by abv?
+- Brewery Schorschbräu produces highest adv beers on average; 19.23%
+- Strongest beer is produced by Schorschbräu brewery and its abv is 57.7%
+
+What are the factors that impacts the quality of beer the most?
