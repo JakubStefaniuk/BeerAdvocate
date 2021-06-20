@@ -2,7 +2,7 @@ Which brewery produces the strongest beers by abv?
 - Brewery Schorschbräu produces highest adv beers on average; 19.23%
 - Strongest beer is produced by Schorschbräu brewery and its abv is 57.7%
 
-What are the factors that impacts the quality of beer the most?
+What are the factors that impact the quality of beer the most?
 It is assumed, that beer quality is based on overall reviews*.
 - Factor: review_taste impacts beer quality, having: 0.79 influence (Pearson's coefficient)
 - Factor: review_palate impacts beer quality, having: 0.7 influence (Pearson's coefficient)
@@ -13,7 +13,6 @@ What surprised me is that beer style and brewery choice barely showed any correl
 beers from the best known breweries will be drastically better than the others.
 
 * NOTE:
-
 Only these factors are taken into account:
 - beer_abv
 - beer_style
