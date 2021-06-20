@@ -11,4 +11,4 @@ class BeerQualityFactorResult(DescriptiveResult):
         self.impact_percent = impact_percent
 
     def describe(self) -> str:
-        return f"Factor: {self.factor_name} impacts beer quality, having: {self.impact_percent}% influence"
+        return f"Factor: {self.factor_name} impacts beer quality, having: {self.impact_percent:.2} influence (Pearson's coefficient)"

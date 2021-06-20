@@ -3,3 +3,30 @@ Which brewery produces the strongest beers by abv?
 - Strongest beer is produced by Schorschbräu brewery and its abv is 57.7%
 
 What are the factors that impacts the quality of beer the most?
+It is assumed, that beer quality is based on overall reviews*.
+- Factor: review_taste impacts beer quality, having: 0.79 influence (Pearson's coefficient)
+- Factor: review_palate impacts beer quality, having: 0.7 influence (Pearson's coefficient)
+- Factor: review_aroma impacts beer quality, having: 0.62 influence (Pearson's coefficient)
+
+To sum it up: taste, palate and aroma are the 3 most influencing beer's quality factors.
+What surprised me is that beer style and brewery choice barely showed any correlation, at first I thought that
+beers from the best known breweries will be drastically better than the others.
+
+* NOTE:
+
+Only these factors are taken into account:
+- beer_abv
+- beer_style
+- appearance_review
+- palate_review
+- taste_review
+- aroma_review
+- brewery_id
+
+Below factors are being excluded from impacting beer quality:
+- brewery_name (redundancy, as brewery_id is already included)
+- review_time (obvious)
+- review_overall (our target quality variable)
+- review_profilename (obvious)
+- beer_name (as it definitely impacts overall_review, as review is for specific beer)
+- beer_beerid (=,=)

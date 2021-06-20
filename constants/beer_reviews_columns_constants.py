@@ -12,3 +12,32 @@ class BeerReviewsColumnsConstants:
     def brewery_id() -> str:
         return "brewery_id"
 
+    @staticmethod
+    def overall_review() -> str:
+        return "review_overall"
+
+    @staticmethod
+    def aroma_review() -> str:
+        return "review_aroma"
+
+    @staticmethod
+    def appearance_review() -> str:
+        return "review_appearance"
+
+    @staticmethod
+    def beer_style() -> str:
+        return "beer_style"
+
+    @staticmethod
+    def taste_review() -> str:
+        return "review_taste"
+
+    @staticmethod
+    def palate_review() -> str:
+        return "review_palate"
+
+
+
+
+
+
